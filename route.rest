@@ -1,0 +1,26 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/5f323d678bef172e24e6f996
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Amazing",
+    "subscribedToChannel":"Web Dev"
+}
+
+###
+DELETE http://localhost:3000/subscribers/5f323d678bef172e24e6f996
+
+###
+
+PATCH http://localhost:3000/subscribers/5f3243743bb9ec17101b37bb
+Content-Type: application/json
+
+{
+    "name":"Amazang"
+}
